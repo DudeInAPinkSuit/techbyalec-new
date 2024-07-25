@@ -44,13 +44,13 @@ function Header() {
                     <a href="#about">About</a>
                 </li>
                 <li>
-                    <a href="#portfolio">Portfolio</a>
+                    <a href="/#portfolio">Portfolio</a>
                 </li>
                 <li>
                     <a href="#contact">Contact</a>
                 </li>
                 <li>
-                    <a href="#blog">My Blog</a>
+                    <Link to="/blog">Blog</Link>
                 </li>
                 <IconX
                     className={styles.icons}
